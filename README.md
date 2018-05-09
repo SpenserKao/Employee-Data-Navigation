@@ -46,7 +46,7 @@ Two JSON-based flat files have been built to covern differenct scenarios.
 ## ToDo
 | item | Description | Implemented? (Y/N) |
 | ---:|:-------------|:-----:|
-|1| To generically determine number of td (HTML term: table cell) elemnts in order to allow unlimted hierarchy levels. Currently we fixed it as five | N |
+|1| To generically determine number of td (HTML term: table cell) elemnts in order to allow unlimted hierarchy levels. Currently it is  fixed as five. | N |
 
 ## Reference
 [1] https://run.plnkr.co/plunks/QpxnTeHwtiWfIAI9o1KZ/ <br/>
