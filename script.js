@@ -92,6 +92,7 @@ empDataApp.controller('browseEmpData', ['$scope', '$http', 'showHTMLcontent', fu
 	$scope.formHierarchy = function (id) {
 		/** 
 		 *	Find the depth of the employees data structure
+		 *  Note: THIS IS A RECURSIVE FUNCTION
 		 */
 		var items = $scope.empData; 
 		var mgrs = {}; 
@@ -105,9 +106,7 @@ empDataApp.controller('browseEmpData', ['$scope', '$http', 'showHTMLcontent', fu
 		$scope.maxDepth = Math.max($scope.currentLevel, $scope.maxDepth);
 				
 		// 2. traverse from EACH of the immediate subordinates, until reaching his/her 
-		// lowest level (leaf) staff, whose id is not a managerId. Once done, record the depth.
-		// Whenever a depth is recorded, compare it with previous one, only keep the 
-		// bigger one. Eventually the depth should be the biggest one, which we are after		
+		// lowest level (leaf) staff, whose id is not a managerId. 	
 		mgrs.forEach(function(subr) {
 			var oneLine = {
 				"name" : subr.employeeName,
