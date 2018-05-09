@@ -27,6 +27,9 @@ Angular JS ver 1.2.0 has been utilised in this application, noteworthily followi
    - ng-selected - sets the selected attribute on the element
    - ng-change - evaluates the given expression when the user changes the input
 
+### Recursion
+Recusion technique has been applied in traversing employee data for reasoning hierarchial relationship holistically.
+
 ## Design of employee data input
 Simplistic JSON-based flat files have been facilitated as inputs of employee data and for configuring viewing options.
 
@@ -38,9 +41,9 @@ Simplistic JSON-based flat files have been facilitated as inputs of employee dat
 Two JSON-based flat files have been built to covern differenct scenarios.
    - employeeData.json - contains indentical content as examplied in the Momenton-provided requirement document
    - employeeData-depth5.json - currently used as a test case, a superset of above file, covering following extra scenarios:
-      - Manager who is not a valid employee - this isn't covered in the original requirement document
-	  - Multiple topmost managers, rather than just one CEO, can also be handled
-	  - Hierarchy level has been extended to five
+	- Manager who is not a valid employee - this isn't covered in the original requirement document
+	- Multiple topmost managers, rather than just one CEO, can also be handled
+	- Hierarchy level has been extended to five
 
 ## ToDo
 | item | Description | Implemented? (Y/N) |
