@@ -46,9 +46,17 @@ empDataApp.controller('browseEmpData', ['$scope', '$http', 'showHTMLcontent', fu
 		var lookup = {};
 		var items = $scope.empData;
 		var result = [];
-
+		var name = "";
+		
 		items.forEach(function(item) {
-			var name = (type === "managerId" ? item.managerId : item.id);
+			switch(type) {
+				case 'managerId':
+					name = item.managerId;
+					break;
+				case 'id':
+					name = item.id;
+					break;
+			}		
 
 			if (!(name in lookup)) {
 				lookup[name] = 1;
