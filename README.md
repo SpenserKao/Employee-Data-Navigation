@@ -33,10 +33,10 @@ Simplistic JSON-based flat files have been facilitated as inputs for employee da
 ## Test cases
 Two JSON-based flat files have been built to covern differenct scenarios.
    - employeeData.json - contains indentical content as examplied in the Momenton-provided requirement document
-   - employeeData-depth5.json - currently used as a test case, a superset of above file, but with following extract senarios:
+   - employeeData-depth5.json - currently used as a test case, a superset of above file, covering following extra scenarios:
       - Manager who is not a valid employee - this isn't covered in the original requirement document
-	  - Multiple topmost managers, rather than just one CEO, can also be handled
-	  - Hierarchy level has been extended to five
+      - Multiple topmost managers, rather than just one CEO, can also be handled
+      - Hierarchy level has been extended to five
 
 ## ToDo
 | item | Description | Implemented? (Y/N) |
@@ -45,3 +45,4 @@ Two JSON-based flat files have been built to covern differenct scenarios.
 
 ## Reference
 [1] https://github.com/SpenserKao/Employee-Data-Navigation<br/>
+
