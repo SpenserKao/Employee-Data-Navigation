@@ -7,22 +7,17 @@ Following four views have been implemented:
    - Hierarchical relationship among employees
    - Employee without manager
    - Manager who is not a valid employee
- 
-## Execution
-### via Plunkr
-The application is hosted under Plnkr [1]. Simply open that URL for execution.
- 
-### Locally
-Just in case, you need to execute it with web server, Firefox and Microsoft Internet Explorer (Microsoft Edge) work for the application perfectly. 
-Simply open index.html file with internet browser.
-Google Chrome is not supported, due to following error "Cross origin requests are only supported for protocol schemes: http, data, chrome, chrome-extension, https." 
 
-## Code Review
-Two ways of reviewing code: GitHub [2].
+## Installation
+Go to GitHub where the codes are reposited [1], click "Clone or download" button on the right to download Zip for installation locally.
+
+## Execution
+Once installed locally, open index.html file with Firefox or Microsoft Edge.
+Google Chrome is not supported, due to following error "Cross origin requests are only supported for protocol schemes: http, data, chrome, chrome-extension, https." 
 
 ## Technologies in use
 ### AngularJS
-Angular JS ver 1.1.5 has been utilised in this application, noteworthily following directives have been employed:
+Angular JS ver 1.2.0 has been utilised in this application, noteworthily following directives have been employed:
    - ng-app - designates the root element of the application and is typically placed near the root element of the page - e.g. on the <body> or <html> tags
    - ng-controller - attaches a controller class to the view
    - ng-show - enables conditional display of selected image's details 
@@ -49,5 +44,4 @@ Two JSON-based flat files have been built to covern differenct scenarios.
 |1| To generically determine number of td (HTML term: table cell) elemnts in order to allow unlimted hierarchy levels. Currently it is  fixed as five. | N |
 
 ## Reference
-[1] https://run.plnkr.co/plunks/QpxnTeHwtiWfIAI9o1KZ/ <br/>
-[2] https://github.com/SpenserKao/Employee-Data-Navigation <br/>
+[1] https://github.com/SpenserKao/Employee-Data-Navigation<br/>
