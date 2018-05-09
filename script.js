@@ -37,7 +37,7 @@ empDataApp.controller('browseEmpData', ['$scope', '$http', 'showHTMLcontent', fu
 				var uniqueMgrIDs = $scope.findUniqueManagerIDs("managerId");
 				var uniqueIDs = $scope.findUniqueManagerIDs("id");	
 				var invalidEmployeeIDs = $scope.findInvalidEmployeeIDs(uniqueMgrIDs, uniqueIDs);
-				$scope.searchResult = $scope.findEmployeesWhoseMamangerIdInvalid(invalidEmployeeIDs);				
+				$scope.searchResult = $scope.findEmployeesWhoseMangerIdInvalid(invalidEmployeeIDs);				
 				break;				
 		}		
 	};
@@ -83,7 +83,7 @@ empDataApp.controller('browseEmpData', ['$scope', '$http', 'showHTMLcontent', fu
 		});
 	};
 	
-	$scope.findEmployeesWhoseMamangerIdInvalid = function (arr) {
+	$scope.findEmployeesWhoseMangerIdInvalid = function (arr) {
 		var items = $scope.empData;
 		var result = [];
 
