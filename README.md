@@ -50,4 +50,4 @@ Two JSON-based flat files have been built to covern differenct scenarios.
 
 ## Reference
 [1] https://run.plnkr.co/plunks/QpxnTeHwtiWfIAI9o1KZ/ <br/>
-[2] https://embed.plnkr.co/QpxnTeHwtiWfIAI9o1KZ/ <br/>
+[2] https://github.com/SpenserKao/Employee-Data-Navigation <br/>
