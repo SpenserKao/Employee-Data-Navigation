@@ -49,10 +49,11 @@ Two JSON-based flat files have been built to covern differenct scenarios.
       - Hierarchy level has been extended to five
 
 ## Test result
-With <a href="employeeData-depth5.json">employeeData-depth5.json</a> as input employee data, the view-selection specific reponses are as shown in screenshots tabled below.<br/> 
-| *Full employees list* | *Hierarchical relationship among employees* | *Employee without manager* | *Manager who is not a valid employee* |
-|---|---|---|---|
-| <a href="image/fulllist.PNG">fulllist.png</a> | <a href="image/hierarchy.PNG">hierarchy.PNG</a > | <a href="image/employeeWithMgr.PNG">employeeWoMgr.png</a > | <a href="image/mgrInvalidEmployee.PNG">mgrInvalidEmployee.png</a> |
+With <a href="employeeData-depth5.json">employeeData-depth5.json</a> as input employee data, the view-selection specific reponses are as shown in screenshots list below.<br/> 
+   - <a href="image/fulllist.PNG">Full employees list</a> 
+   - <a href="image/hierarchy.PNG">Hierarchical relationship among employees</a> 
+   - <a href="image/employeeWithMgr.PNG">Employee without manager</a> 
+   = <a href="image/mgrInvalidEmployee.PNG"Manager who is not a valid employee</a>
 
 ## ToDo
 | item | Description | Implemented? (Y/N) |
