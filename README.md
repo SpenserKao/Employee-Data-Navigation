@@ -49,7 +49,7 @@ Two JSON-based flat files have been built to covern differenct scenarios.
       - Hierarchy level has been extended to five
 
 ### Test result
-With <a href="employeeData-depth5.json">employeeData-depth5.json</a> as inout employee data, the view-selection specific reponses are as shown in screenshots tabled below,
+With <a href="employeeData-depth5.json">employeeData-depth5.json</a> as inout employee data, the view-selection specific reponses are as shown in screenshots tabled below. <br/>
 | Full employees list | Hierarchical relationship among employees | Employee without manager | Manager who is not a valid employee |
 |:-------------------:|:-----------------------------------------:|:------------------------:|:-----------------------------------:|
 |<a href="image/fulllist.PNG">fulllist.png</a>|<a href="image/hierarchy.PNG">hierarchy.PNG</a>|<a href="image/employeeWoMgr.PNG">employeeWoMgr.png</a>|<a href="image/mgrInvalidEmployee.PNG">mgrInvalidEmployee.png</a>|
