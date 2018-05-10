@@ -53,7 +53,7 @@ With <a href="employeeData-depth5.json">employeeData-depth5.json</a> as input em
    - <a href="image/fulllist.PNG">Full employees list</a> 
    - <a href="image/hierarchy.PNG">Hierarchical relationship among employees</a> 
    - <a href="image/employeeWithMgr.PNG">Employee without manager</a> 
-   - <a href="image/mgrInvalidEmployee.PNG"Manager who is not a valid employee</a>
+   - <a href="image/mgrInvalidEmployee.PNG">Manager who is not a valid employee</a>
 
 ## ToDo
 | item | Description | Implemented? (Y/N) |
