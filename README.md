@@ -59,7 +59,7 @@ With <a href="employeeData-depth5.json">employeeData-depth5.json</a> as input em
 
 ## ToDo
 | item | Description | Implemented? (Y/N) |
-| ---:|:-------------|:-----:|
+|----------|----------|----------|----------|
 |1| To generically determine number of td (HTML term: table cell) elemnts in order to allow unlimted hierarchy levels. Currently it is  fixed as five. | N |
 
 ## Reference
