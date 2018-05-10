@@ -50,7 +50,7 @@ Two JSON-based flat files have been built to covern differenct scenarios.
 
 ### Test result
 With <a href="employeeData-depth5.json">employeeData-depth5.json</a> as input employee data, the view-selection specific reponses are as shown in screenshots tabled below.<br/>
-*Full employees list* | *Hierarchical relationship among employees* | *Employee without manager* | *Manager who is not a valid employee*
+a | b | c | d
 --- | --- | --- | ---
  <a href="image/fulllist.PNG">fulllist.png</a>
 | <a href="image/hierarchy.PNG">hierarchy.PNG</a >
