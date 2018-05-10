@@ -53,15 +53,10 @@ With <a href="employeeData-depth5.json">employeeData-depth5.json</a> as input em
 | *Full employees list* | *Hierarchical relationship among employees* | *Employee without manager* | *Manager who is not a valid employee* |
 |---|---|---|---|
 | <a href="image/fulllist.PNG">fulllist.png</a> | <a href="image/hierarchy.PNG">hierarchy.PNG</a > | <a href="image/employeeWithMgr.PNG">employeeWoMgr.png</a > | <a href="image/mgrInvalidEmployee.PNG">mgrInvalidEmployee.png</a> |
-	  
-## ToDo
-| item | Description | Implemented? (Y/N) |
-| ---:|:-------------|:-----:|
-|1| To generically determine number of td (HTML term: table cell) elemnts in order to allow unlimted hierarchy levels. Currently it is  fixed as five. | N |
 
 ## ToDo
 | item | Description | Implemented? (Y/N) |
-|----------|----------|----------|----------|
+| ---:|:-------------|:-----:|
 |1| To generically determine number of td (HTML term: table cell) elemnts in order to allow unlimted hierarchy levels. Currently it is  fixed as five. | N |
 
 ## Reference
