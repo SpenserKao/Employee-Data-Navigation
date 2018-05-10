@@ -48,7 +48,7 @@ Two JSON-based flat files have been built to covern differenct scenarios.
       - Multiple topmost managers, rather than just one CEO, can also be handled
       - Hierarchy level has been extended to five
 
-### Test result
+## Test result
 With <a href="employeeData-depth5.json">employeeData-depth5.json</a> as input employee data, the view-selection specific reponses are as shown in screenshots tabled below.<br/> 
 | *Full employees list* | *Hierarchical relationship among employees* | *Employee without manager* | *Manager who is not a valid employee* |
 |---|---|---|---|
