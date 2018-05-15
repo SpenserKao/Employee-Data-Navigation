@@ -83,6 +83,14 @@ JavaScript codes of this application.
 Cascading Style Sheets.
 
 ## Test
+### Unit Test
+Based on Jasmine 3.1.0, all unit test codes are placed under _unittest-jasmine-standalone-3.1.0_. <br/>
+Coventionally, it has following further two sub-directories:
+   - _src_ for JavaScript code unde test 
+   - _spec_ for specifying how the unit tests are oiing to proceed,
+Stand alone, file _SpecRunner.html_ that integrates what to test and how to test is the one to open with a web browse to proceed the unit test.
+
+### Point-to-point test
 
 ## Test cases
 Two JSON-based flat files have been built to govern differenct scenarios.
@@ -103,6 +111,7 @@ With <a href="employeeData-depth5.json">employeeData-depth5.json</a> as input em
 | item | Description | Implemented? (Y/N) |
 | ---:|:-------------|:-----:|
 |1| To generically determine number of td (HTML term: table cell) elemnts in order to allow unlimted hierarchy levels. Currently it is  fixed as five. | N |
+|2| More test cases for both unit test and point-to-point test. | N |
 
 ## Reference
 [1] https://github.com/SpenserKao/Employee-Data-Navigation<br/>
