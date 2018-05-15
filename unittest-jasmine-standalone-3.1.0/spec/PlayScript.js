@@ -2,7 +2,6 @@ describe('controller', function() {
 	beforeEach(module('myEmpDataApp'));		//angular.mock.
 
 	var $controller;
-	var customer = {};
 		  
 	beforeEach(inject(function(_$controller_, _$http_, _$httpBackend_){
 		// The injector unwraps the underscores (_) from around the parameter names when matching
