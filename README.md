@@ -30,7 +30,7 @@ _cd (to where the application is extracted and installed)_ <br/>
 _npm install serve -g_ <br/>
 _serve_
 
-Once it is done, we can hit the application page through URL localhost5000 or IPaddress:5000
+Once it is done, we can hit the application page through URL __localhost5000__ or IPaddress:5000
 NB Pressing Ctl=C will stop theserver, while _serve_ is to restart it again.
 
 ## Technologies in use
@@ -88,11 +88,35 @@ Cascading Style Sheets.
 ### Unit Test
 Based on Jasmine 3.1.0, all unit test codes are placed under _unittest-jasmine-standalone-3.1.0_. <br/>
 Coventionally, it has following further two sub-directories:
-   - _src_ for JavaScript code unde test 
-   - _spec_ for specifying how the unit tests are oiing to proceed,
-Stand alone, file _SpecRunner.html_ that integrates what to test and how to test is the one to open with a web browse to proceed the unit test.
+   - _src_ - for JavaScript code unde test 
+      - fundamentally, what's URL of app under test. In our case, due to the setup of http-server, it would be __localhost:5000__.
+      - any extended timeout required? Especially when asynchrous communication is applied.
+      - what/how to test.      
+   - _spec_ - for specifying how the unit tests are oiing to proceed
+      - framework - _Jasmine_ is chosen,
+      - browser - what type of browser to use behind the scene. _Firefox_ is chosen.
+      - seleniumAddress - http://localhost:4444/wd/hub has been pre-configured.
+      - which spec file in use - _empData-spec.js_, in our case.
+ 
+Finally, issue following command and look into on-screen message for test outcome.
+__protractor conf.js__
+
+Standalone, file __SpecRunner.html__ that integrates what to test and how to test is the one to open with a web browse to proceed the unit test.
 
 ### Point-to-point test
+_e2e-test-protractor-5.3.2_ contains codes of point-to-point test.
+Quite similar to Jamesine, following two files serve critical purposes:
+   - _empData-spec.js_ - 
+   - _conf.js_ - 
+The test is based on _Protract 5.3.2_, for whose setup please refer to [3].<br/>
+Again, we better have a standalone Command Prompt window to execute following three commands.
+   - _npm install -g protractor_
+   - _webdriver-manager update_
+   - _webdriver-manager start_
+
+Under the host
+Issue next command:
+
 
 ## Test cases
 Two JSON-based flat files have been built to govern differenct scenarios.
@@ -118,3 +142,4 @@ With <a href="employeeData-depth5.json">employeeData-depth5.json</a> as input em
 ## Reference
 [1] https://github.com/SpenserKao/Employee-Data-Navigation<br/>
 [2] https://stackoverflow.com/questions/29528922/how-to-create-a-localhost-server-to-run-an-angularjs-project<br/>
+[3] https://www.protractortest.org/#/tutorial
