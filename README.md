@@ -25,11 +25,13 @@ Google Chrome is not supported, due to following error "Cross origin requests ar
 AS long as local machine already got nodeJS installed, http-server's setup at local machine allows point-to-point test to be conducted locally without having to host the application remotedly.
 Follow the instructions excerpted from [2]
 
+We need a standalone Command Propmt windows, then,
 _cd (to where the application is extracted and installed)_ <br/>
 _npm install serve -g_ <br/>
 _serve_
 
 Once it is done, we can hit the application page through URL localhost5000 or IPaddress:5000
+NB Pressing Ctl=C will stop theserver, while _serve_ is to restart it again.
 
 ## Technologies in use
 ### AngularJS
