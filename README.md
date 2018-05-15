@@ -51,24 +51,39 @@ Simplistic JSON-based flat files have been facilitated as inputs of employee dat
 
 ## File structure
 Three sub-directories and fight files are briefed below.
+
 ### e2e-test-protractor-5.3.2
+Contains end-to-end testing libary and custome-made codes, which are based on Protractor 5.3.2. More to elaborate in testing sections.
+
 ### image
+Contains image files for documentation.
+
 ### unittest-jasmine-standalone-3.1.0
+Contains unit-test coes, which are based on Jasmine 3.1.0 in standalone mode. More to elaborate in testing sections.
+
 ### README.md
+This file you are reading.
+
 ### employeeData-depth5.json
+The main JSON file seralises employee data as an import input data to the applicatiin. As a virtual superset of employeeData.json explained next, this contains extrat data to conver extra more general/exceptional scenarios. 
+
 ### employeeData.json
+As hinted earlier, this input data file only reflects basic Momenton-provided scenarios.  
+
 ### index.html
+The default executable if http-server is set up locally.
+
 ### renderOptions.json
+Another attempt of modulising input data in a eralised form, except this is an auxliary responsible of configuring viewing options.
+
 ### script-ok.js
+JavaScript codes of this application.
+
 ### sryle.css
-
-
-## Key components: Input employee data and viewing options
-   - renderOptions.json - rather than hardcoded in index.html, the configuration of viewing options has been tabled in this file
-   - employeeData.json & employeeData-depth5.json - see explanation in next section 
+Cascading Style Sheets.
 
 ## Test cases
-Two JSON-based flat files have been built to covern differenct scenarios.
+Two JSON-based flat files have been built to govern differenct scenarios.
    - employeeData.json - contains indentical content as examplied in the Momenton-provided requirement document
    - employeeData-depth5.json - currently used as a test case, a superset of above file, covering following extra scenarios:
       - Manager who is not a valid employee - this isn't covered in the original requirement document
@@ -88,5 +103,5 @@ With <a href="employeeData-depth5.json">employeeData-depth5.json</a> as input em
 |1| To generically determine number of td (HTML term: table cell) elemnts in order to allow unlimted hierarchy levels. Currently it is  fixed as five. | N |
 
 ## Reference
-[1] https://github.com/SpenserKao/Employee-Data-Navigation<br/><br/>
-[2] https://stackoverflow.com/questions/29528922/how-to-create-a-localhost-server-to-run-an-angularjs-project
+[1] https://github.com/SpenserKao/Employee-Data-Navigation<br/>
+[2] https://stackoverflow.com/questions/29528922/how-to-create-a-localhost-server-to-run-an-angularjs-project<br/>
