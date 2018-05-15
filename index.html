@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="empDataApp">
+<html ng-app="myEmpDataApp" ng-controller="browseEmpData">
   <head>
 	<!--
 		Ref:
@@ -11,11 +11,17 @@
     <meta charset="utf-8">
     <title>Empolyee Data Navigation</title>
 	<link href="style.css" rel="stylesheet" type="text/css"/>
+
+	<!--script src="http://code.angularjs.org/1.2.0/angular.js"></script--> <!-- version 1.1.5 is a must to work for CSS-BASED animation effect!!-->
+	<script type="text/javascript" src="https://code.angularjs.org/1.4.0-rc.2/angular.min.js">
+
+	<script src="js/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="js/jquery-3.2.1.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	
-	<script src="http://code.angularjs.org/1.1.5/angular.js"></script> <!-- This version is a must to work for CSS-BASED animation effect!!-->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!--ssscript src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script-->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
-	<script src="script.js"></script>	
+	<script src="script-ok.js"></script>	<!-- script-20180513.js -->	
+	
 	<style>
 		div.gradient_test {
 			background: linear-gradient(to right, #66ff99 0%, #0066ff 100%);
@@ -23,15 +29,15 @@
 	</style>	
   </head>
   <body>
-	<div ng-controller="browseEmpData">
-		<h2>Employee Data Navigation</h2>
+	<div>
+		<h2>Empolyee Data Navigation</h2>
 		<hr/>
 		
 		<label>what to view: 
 			<br/>
 			<select ng-model="value" ng-change="changeFunc(value)">
-				<option ng-repeat="o in renderOptions" value="{{o.value}}" ng-selected="$index===0">{{o.label}}</option>
-			</select>
+				<option ng-repeat="o in renderOptions" value="{{o.value}}" ng-selected="$index===0" class="renderOpt">{{o.label}}</option>
+			</select>				
 		</label>
 		<hr/>
 		
@@ -41,15 +47,15 @@
 					<td >Employee Name</td><td>ID</td><td>Manager ID</td>
 				</tr>
 			</thead>
-			<tr ng-repeat="e in searchResult" ng-model="renderOption" ng-show="renderOption != 'opt2'">
+			<tr class="employee" ng-repeat="e in searchResult" ng-model="renderOption" ng-show="renderOption != 'opt2'">
 				<td align="center">{{e.employeeName}}</td><td align="center">{{e.id}}</td><td align="center">{{e.managerId}}</td>
 			</tr>
 			<tr ng-repeat="h in hierarchy" ng-model="renderOption" ng-show="renderOption == 'opt2'" ng-switch="h.level">
-				<td ng-switch-when="1">{{h.name}}</td><td/><td/>
-				<td/><td ng-switch-when="2">{{h.name}}</td><td/>
-				<td/><td/><td ng-switch-when="3">{{h.name}}</td>			
-				<td/><td/><td/><td ng-switch-when="4">{{h.name}}</td><td/>
-				<td/><td/><td/><td/><td ng-switch-when="5">{{h.name}}</td>				
+				<td ng-switch-when="1">{{h.name}}</td><td></td><td></td><td></td><td></td>
+				<td></td><td ng-switch-when="2">{{h.name}}</td><td></td><td></td><td></td>
+				<td></td><td></td><td ng-switch-when="3">{{h.name}}</td><td></td><td></td>			
+				<td></td><td></td><td></td><td ng-switch-when="4">{{h.name}}</td><td></td>
+				<td></td><td></td><td></td><td></td><td ng-switch-when="5">{{h.name}}</td>				
 			</tr>			
 		</table>		
 	</div>
