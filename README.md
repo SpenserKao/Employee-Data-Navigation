@@ -82,6 +82,8 @@ JavaScript codes of this application.
 ### sryle.css
 Cascading Style Sheets.
 
+## Test
+
 ## Test cases
 Two JSON-based flat files have been built to govern differenct scenarios.
    - employeeData.json - contains indentical content as examplied in the Momenton-provided requirement document
