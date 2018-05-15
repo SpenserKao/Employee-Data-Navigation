@@ -50,6 +50,12 @@ Angular JS ver 1.2.0 has been utilised in this application, noteworthily followi
 ### Recursion
 Recusion technique has been applied in traversing employee data for reasoning hierarchial relationship holistically.
 
+### Jasmine 
+Jasmine v4.1.0 is used for unit-testing.
+
+### Protractor
+Protractor v5.3.2 is used to end-to-end test.
+
 ## Design of employee data input
 Simplistic JSON-based flat files have been facilitated as inputs of employee data and for configuring viewing options.
 
