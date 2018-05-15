@@ -110,7 +110,8 @@ _e2e-test-protractor-5.3.2_ contains codes of point-to-point test.
 Quite similar to Jamesine, following two files serve critical purposes:
    - _empData-spec.js_ - 
    - _conf.js_ - 
-The test is based on _Protract 5.3.2_, for whose setup please refer to [3].<br/><br/>
+The test is based on _Protract 5.3.2_, for whose setup please refer to [3].<br/>
+
 Again, we better have a standalone Command Prompt window to execute following three commands.
    - _npm install -g protractor_
    - _webdriver-manager update_
