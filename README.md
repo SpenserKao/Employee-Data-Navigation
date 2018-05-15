@@ -15,7 +15,7 @@ Even though not in the original requirements, following feature is added to make
 Go to GitHub where the codes are reposited [1], click "Clone or download" button on the right to download Zip for local installation.
 
 ## Execution
-Two ways to execute the application: simply open index.html with a web browser, and through a light weight http-server. <br/>
+Two ways to execute the application: simply open index.html with a web browser, or through a light weight http-server. <br/>
 
 ### index.html
 Once installed locally, open index.html file with Firefox or Microsoft Edge.
@@ -25,8 +25,8 @@ Google Chrome is not supported, due to following error "Cross origin requests ar
 AS long as local machine already got nodeJS installed, http-server's setup at local machine allows point-to-point test to be conducted locally without having to host the application remotedly.
 Follow the instructions excerpted from [2]
 
-_cd (to where the application is extracted and installed)_
-_npm install serve -g_
+_cd (to where the application is extracted and installed)_ <br/>
+_npm install serve -g_ <br/>
 _serve_
 
 Once it is done, we can hit the application page through URL localhost5000 or IPaddress:5000
@@ -49,7 +49,21 @@ Recusion technique has been applied in traversing employee data for reasoning hi
 ## Design of employee data input
 Simplistic JSON-based flat files have been facilitated as inputs of employee data and for configuring viewing options.
 
-## Components: Input employee data and viewing options
+## File structure
+Three sub-directories and fight files are briefed below.
+### e2e-test-protractor-5.3.2
+### image
+### unittest-jasmine-standalone-3.1.0
+### README.md
+### employeeData-depth5.json
+### employeeData.json
+### index.html
+### renderOptions.json
+### script-ok.js
+### sryle.css
+
+
+## Key components: Input employee data and viewing options
    - renderOptions.json - rather than hardcoded in index.html, the configuration of viewing options has been tabled in this file
    - employeeData.json & employeeData-depth5.json - see explanation in next section 
 
