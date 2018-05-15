@@ -11,6 +11,8 @@ Following four views have been implemented:
 Even though not in the original requirements, following feature is added to make the solution more versatile:   
    - Multiple topmost managers, rather than just one CEO, are allowed and presented their hierarachies
    
+Unit test. end-to-end test and end-user test have been coverned.
+   
 ## Installation
 Go to GitHub where the codes are reposited [1], click "Clone or download" button on the right to download Zip for local installation.
 
