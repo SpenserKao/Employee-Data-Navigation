@@ -114,8 +114,14 @@ Standalone, file __SpecRunner.html__ that integrates what to test and how to tes
 ### Point-to-point test
 _e2e-test-protractor-5.3.2_ contains codes of point-to-point test.
 Quite similar to Jamesine, following two files serve critical purposes:
-   - _empData-spec.js_ - 
-   - _conf.js_ - 
+   - _empData-spec.js_ 
+      - URL of application under test.
+      - any extra timeout required? If working asynchroous mode.
+      - what to test and how to test.
+   - _conf.js_ 
+      - framework - _Jasmine v3.1.0_ is chosen.
+      - seleniumAddress- URL of selenium has to integrate with.
+      - browserName - name of browser to use behind the scene. _Firefox_ is chosen.
 The test is based on _Protract 5.3.2_, for whose setup please refer to [3].<br/>
 
 Again, we better have a standalone Command Prompt window to execute following three commands.
