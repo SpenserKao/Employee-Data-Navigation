@@ -24,16 +24,16 @@ Once installed locally, open index.html file with Firefox or Microsoft Edge.
 Google Chrome is not supported, due to following error "Cross origin requests are only supported for protocol schemes: http, data, chrome, chrome-extension, https." 
 
 ### light weight http-server
-AS long as local machine already got nodeJS installed, http-server's setup at local machine allows point-to-point test to be conducted locally without having to host the application remotedly.
-Follow the instructions excerpted from [2]
+AS long as local machine already got nodeJS installed, http-server's setup at local machine allows point-to-point test to be conducted locally without having to host the application remotedly.<br/>
+Follow the next instructions excerpted from [2]
 
-We need a standalone Command Propmt windows, then,
+We need a standalone Command Propmt windows, then,<br/>
 _cd (to where the application is extracted and installed)_ <br/>
 _npm install serve -g_ <br/>
 _serve_
 
 Once it is done, we can hit the application page through URL __localhost5000__ or IPaddress:5000
-NB Pressing Ctl=C will stop theserver, while _serve_ is to restart it again.
+NB Pressing "Ctl C" will stop theserver, while _serve_ is to restart it again.
 
 ## Technologies in use
 ### AngularJS
