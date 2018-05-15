@@ -117,8 +117,7 @@ Again, we better have a standalone Command Prompt window to execute following th
 Under the host
 Issue next command:
 
-
-## Test cases
+### End-use test
 Two JSON-based flat files have been built to govern differenct scenarios.
    - employeeData.json - contains indentical content as examplied in the Momenton-provided requirement document
    - employeeData-depth5.json - currently used as a test case, a superset of above file, covering following extra scenarios:
@@ -126,7 +125,7 @@ Two JSON-based flat files have been built to govern differenct scenarios.
       - Multiple topmost managers, rather than just one CEO, can also be handled
       - Hierarchy level has been extended to five
 
-## Test result
+#### End-user test result
 With <a href="employeeData-depth5.json">employeeData-depth5.json</a> as input employee data, the view-selection specific reponses are as shown in screenshots list below.<br/> 
    - <a href="image/fulllist.PNG">Full employees list</a> 
    - <a href="image/hierarchy.PNG">Hierarchical relationship among employees</a> 
@@ -137,7 +136,7 @@ With <a href="employeeData-depth5.json">employeeData-depth5.json</a> as input em
 | item | Description | Implemented? (Y/N) |
 | ---:|:-------------|:-----:|
 |1| To generically determine number of td (HTML term: table cell) elemnts in order to allow unlimted hierarchy levels. Currently it is  fixed as five. | N |
-|2| More test cases for both unit test and point-to-point test. | N |
+|2| More test cases for both unit test and point-to-point test. Specially when we overcome the shortcoming of Protractor's documentation.| N |
 
 ## Reference
 [1] https://github.com/SpenserKao/Employee-Data-Navigation<br/>
