@@ -14,18 +14,21 @@ Even though not in the original requirements, following feature is added to make
 Unit test. end-to-end test and end-user test have been coverned.
    
 ## Installation
-Go to GitHub where the codes are reposited [1], click "Clone or download" button on the right to download Zip for local installation.
+Go to GitHub where the codes are reposited [3], click "Clone or download" button on the right to download Zip for local installation.
 
 ## Execution
-Two ways to execute the application: simply open index.html with a web browser, or through a light weight http-server. <br/>
+There three ways to execute the application.
+
+### via Plunker 
+Hosted remotely at Plunker, which produced URL [1] for direct execution.
 
 ### index.html
-Once installed locally, open index.html file with Firefox or Microsoft Edge.
-Google Chrome is not supported, due to following error "Cross origin requests are only supported for protocol schemes: http, data, chrome, chrome-extension, https." 
+If installed locally as suggested, open index.html file with Firefox or Microsoft Edge.
+NB Google Chrome is yet not supported, due to following error "Cross origin requests are only supported for protocol schemes: http, data, chrome, chrome-extension, https." 
 
 ### light weight http-server
 AS long as local machine already got nodeJS installed, http-server's setup at local machine allows point-to-point test to be conducted locally without having to host the application remotedly.<br/>
-Follow the next instructions excerpted from [2]
+Follow the next instructions excerpted from [4]
 
 We need a standalone Command Propmt windows, then,<br/>
 _cd (to where the application is extracted and installed)_ <br/>
@@ -35,6 +38,11 @@ _serve_
 Once it is done, we can hit the application page through URL __localhost5000__ or IPaddress:5000
 NB Pressing "Ctl C" will stop theserver, while _serve_ is to restart it again.
 
+## Code review
+Two ways to review the codes:
+   - either at this Github repository [3], 
+   - or that under Plunker [2].
+   
 ## Technologies in use
 ### AngularJS
 Angular JS ver 1.2.0 has been utilised in this application, noteworthily following directives have been employed:
@@ -122,7 +130,7 @@ Quite similar to Jamesine, following two files serve critical purposes:
       - framework - _Jasmine v3.1.0_ is chosen.
       - seleniumAddress- URL of selenium has to integrate with.
       - browserName - name of browser to use behind the scene. _Firefox_ is chosen.
-The test is based on _Protract 5.3.2_, for whose setup please refer to [3].<br/>
+The test is based on _Protract 5.3.2_, for whose setup please refer to [5].<br/>
 
 Again, we better have a standalone Command Prompt window to execute following three commands.
    - _npm install -g protractor_
@@ -150,10 +158,12 @@ With <a href="employeeData-depth5.json">employeeData-depth5.json</a> as input em
 ## ToDo
 | item | Description | Implemented? (Y/N) |
 | ---:|:-------------|:-----:|
-|1| To generically determine number of td (HTML term: table cell) elemnts in order to allow unlimted hierarchy levels. Currently it is  fixed as five. | N |
-|2| More test cases for both unit test and point-to-point test. Specially when we overcome the shortcoming of Protractor's documentation.| N |
+|T1| To generically determine number of td (HTML term: table cell) elemnts in order to allow unlimted hierarchy levels. Currently it is  fixed as five. | N |
+|T2| More test cases for both unit test and point-to-point test. Specially when we overcome the shortcoming of Protractor's documentation.| N |
 
 ## Reference
-[1] https://github.com/SpenserKao/Employee-Data-Navigation<br/>
-[2] https://stackoverflow.com/questions/29528922/how-to-create-a-localhost-server-to-run-an-angularjs-project<br/>
-[3] https://www.protractortest.org/#/tutorial
+[1] https://run.plnkr.co/plunks/NhQNDT/
+[2] https://embed.plnkr.co/NhQNDT/
+[3] https://github.com/SpenserKao/Employee-Data-Navigation<br/>
+[4] https://stackoverflow.com/questions/29528922/how-to-create-a-localhost-server-to-run-an-angularjs-project<br/>
+[5] https://www.protractortest.org/#/tutorial
