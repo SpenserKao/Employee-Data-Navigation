@@ -42,6 +42,7 @@ NB Pressing "Ctl C" will stop theserver, while _serve_ is to restart it again.
 Two ways to review the codes:
    - either at this Github repository [3], 
    - or that under Plunker [2].
+NB The embedded view also show preview of run-time execution result.      
    
 ## Technologies in use
 ### AngularJS
