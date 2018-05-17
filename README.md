@@ -40,8 +40,8 @@ NB Pressing "Ctl C" will stop theserver, while _serve_ is to restart it again.
 
 ## Code review
 Two ways to review the codes:
-   - either at this Github repository [3], 
-   - or that under Plunker [2].
+   - either at this Github repository [2], 
+   - or that under Plunker [3].
    
 ## Technologies in use
 ### AngularJS
@@ -162,8 +162,8 @@ With <a href="employeeData-depth5.json">employeeData-depth5.json</a> as input em
 |T2| More test cases for both unit test and point-to-point test. Specially when we overcome the shortcoming of Protractor's documentation.| N |
 
 ## Reference
-[1] https://run.plnkr.co/plunks/NhQNDT/
-[2] https://embed.plnkr.co/NhQNDT/
-[3] https://github.com/SpenserKao/Employee-Data-Navigation<br/>
+[1] https://run.plnkr.co/plunks/NhQNDT/<br/>
+[2] https://github.com/SpenserKao/Employee-Data-Navigation<br/>
+[3] https://embed.plnkr.co/NhQNDT/<br/>
 [4] https://stackoverflow.com/questions/29528922/how-to-create-a-localhost-server-to-run-an-angularjs-project<br/>
 [5] https://www.protractortest.org/#/tutorial
