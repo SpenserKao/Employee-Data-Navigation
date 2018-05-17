@@ -86,7 +86,7 @@ This file you are reading.
 The main JSON file seralises employee data as an import input data to the applicatiin. As a virtual superset of employeeData.json explained next, this contains extrat data to conver extra more general/exceptional scenarios. 
 
 ### employeeData.json
-As hinted earlier, this input data file only reflects basic Momenton-provided scenarios.  
+As hinted earlier, this input data file only reflects original scenarios.  
 
 ### index.html
 The default executable if http-server is set up locally.
@@ -142,7 +142,7 @@ Issue next command:
 
 ### End-use test
 Two JSON-based flat files have been built to govern differenct scenarios.
-   - employeeData.json - contains indentical content as examplied in the Momenton-provided requirement document
+   - employeeData.json - contains indentical content as examplied in the original requirement document
    - employeeData-depth5.json - currently used as a test case, a superset of above file, covering following extra scenarios:
       - Manager who is not a valid employee - this isn't covered in the original requirement document
       - Multiple topmost managers, rather than just one CEO, can also be handled
@@ -162,8 +162,8 @@ With <a href="employeeData-depth5.json">employeeData-depth5.json</a> as input em
 |T2| More test cases for both unit test and point-to-point test. Specially when we overcome the shortcoming of Protractor's documentation.| N |
 
 ## Reference 
-[1] https://run.plnkr.co/plunks/XWhiNS/<br/>
-[2] https://embed.plnkr.co/XWhiNS/<br/>
+[1] https://run.plnkr.co/plunks/XWhiNS/
+[2] https://embed.plnkr.co/XWhiNS/
 [3] https://github.com/SpenserKao/Employee-Data-Navigation<br/>
 [4] https://stackoverflow.com/questions/29528922/how-to-create-a-localhost-server-to-run-an-angularjs-project<br/>
 [5] https://www.protractortest.org/#/tutorial
