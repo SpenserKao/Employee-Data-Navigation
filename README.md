@@ -163,8 +163,8 @@ With <a href="employeeData-depth5.json">employeeData-depth5.json</a> as input em
 |T2| More test cases for both unit test and point-to-point test. Specially when we overcome the shortcoming of Protractor's documentation.| N |
 
 ## Reference 
-[1] https://run.plnkr.co/plunks/XWhiNS/
-[2] https://embed.plnkr.co/XWhiNS/
+[1] https://run.plnkr.co/plunks/XWhiNS/<br/>
+[2] https://embed.plnkr.co/XWhiNS/<br/>
 [3] https://github.com/SpenserKao/Employee-Data-Navigation<br/>
 [4] https://stackoverflow.com/questions/29528922/how-to-create-a-localhost-server-to-run-an-angularjs-project<br/>
 [5] https://www.protractortest.org/#/tutorial
