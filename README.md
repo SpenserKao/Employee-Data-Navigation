@@ -35,7 +35,7 @@ _cd (to where the application is extracted and installed)_ <br/>
 _npm install serve -g_ <br/>
 _serve_
 
-Once it is done, we can hit the application page through URL __localhost5000__ or IPaddress:5000
+Once it is done, we can hit the application page through URL __localhost5000__ or IPaddress:5000<br/>
 NB Pressing "Ctl C" will stop theserver, while _serve_ is to restart it again.
 
 ## Code review
