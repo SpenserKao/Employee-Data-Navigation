@@ -23,7 +23,7 @@ There three ways to execute the application.
 Hosted remotely at Plunker, which produced URL [1] for direct execution.
 
 ### index.html
-If installed locally as suggested, open index.html file with Firefox or Microsoft Edge.
+If installed locally as suggested, open index.html file with Firefox or Microsoft Edge.<br/>
 NB Google Chrome is yet not supported, due to following error "Cross origin requests are only supported for protocol schemes: http, data, chrome, chrome-extension, https." 
 
 ### light weight http-server
