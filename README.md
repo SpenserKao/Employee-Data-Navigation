@@ -11,7 +11,7 @@ Following four views have been implemented:
 Even though not in the original requirements, following feature is added to make the solution more versatile:   
    - Multiple topmost managers, rather than just one CEO, are allowed and presented their hierarachies
    
-Unit test. end-to-end test and end-user test have been coverned.
+Unit test. end-to-end test and end-user test have been covered.
    
 ## Installation
 Go to GitHub where the codes are reposited [3], click "Clone or download" button on the right to download Zip for local installation.
@@ -36,7 +36,7 @@ _npm install serve -g_ <br/>
 _serve_
 
 Once it is done, we can hit the application page through URL __localhost5000__ or IPaddress:5000<br/>
-NB Pressing "Ctl C" will stop theserver, while _serve_ is to restart it again.
+NB Pressing "Ctl C" will stop the server, while _serve_ is to restart it again.
 
 ## Code review
 Two ways to review the codes:
